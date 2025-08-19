@@ -68,7 +68,6 @@ func ShowTrainingInfo(action int, trainingType string, duration, weight, height 
 	}
 }
 
-// Константы для расчета калорий, расходуемых при беге.
 const (
 	runningCaloriesMeanSpeedMultiplier = 18   // множитель средней скорости.
 	runningCaloriesMeanSpeedShift      = 1.79 // среднее количество сжигаемых калорий при беге.
